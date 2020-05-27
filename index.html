@@ -9,29 +9,184 @@
     <header class="title">
         <h1> Sequências </h1>
     </header>   
+    <main>
 
-    <!--DIV BEING INVISIBLE-->
-    <div id="invisble">
-        <div class="div">
+        <!--Seção: Escolher o tipo de sequência-->
+        <section id="choose">
+            <h2>Qual tipo de sequência iremos atuar?</h2>
+            <div class="div">
+                <h3> PA </h3>
 
-            <h3> PA </h3>
+                <p> PA é um tipo de sequência numérica estudada pela Matemática, onde cada termo ou elemento a contar a partir do segundo, é igual a soma do termo anterior com uma constante. </p>
 
-            <p> PA é um tipo de sequência numérica estudada pela Matemática, onde cada termo ou elemento a contar a partir do segundo, é igual a soma do termo anterior com uma constante. </p>
+                <a href="#pa"><button> COMEÇAR </button></a>
+            </div>
+            <div class="div">
 
-            <a href="pa html/pa.html"><button> COMEÇAR </button></a>
+                <h3> PG </h3>
 
+                <p> É uma sequência numérica em que cada termo, a partir do segundo, é resultado da multiplicação do termo anterior por uma constante q, denominada como razão da PG. </p>
 
-        </div>
-        <div class="div">
+                <a href="#pg"><button> COMEÇAR </button></a>
 
-            <h3> PG </h3>
+            </div>
+        </section>
 
-            <p> É uma sequência numérica em que cada termo, a partir do segundo, é resultado da multiplicação do termo anterior por uma constante q, denominada como razão da PG. </p>
+        <!--Seção: PA-->
+        <section id="pa">
+            <section id="home-pa">
+                <h2>PA</h2>
+                <div class="div">
+                    <h3> Razão PA</h3>
+                    <p>Consiste em descobrir como a sequencia está se comportando e o número que está atuando.</p>
+                    <a href="#razao-pa"><button>COMEÇAR</button></a>
+                </div>
 
-            <a href="pg html/pg.html"><button> COMEÇAR </button></a>
+                <div class="div">
+                    <h3> Posição desejada PA </h3>
+                    <p>Consiste em descobrir qual número que é em uma posição escolhida, conhecida também como An.</p>
+                    <a href="#an-pa"><button>COMEÇAR</button></a>
+                </div>
 
-        </div>
-    </div>
+                <div class="div">
+                    <h3> Somar termos PA </h3>
+                    <p>Consiste em somar todos os termos de uma posição até outra.</p>
+                    <a href="#soma-pa"><button>COMEÇAR</button></a>
+                </div>
+            </section>
+            <a href="#choose"><button>VOLTAR</button></a>
+
+            <!--Seção: Razao de PA-->
+            <section id="razao-pa">
+                <h2>Razão de uma PA</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe A2">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>Razão: <p></p></p>
+                    <p>É uma sequência: <p></p> </p>
+                </div>
+            </section>
+            <a href="#home-pa"><button>VOLTAR</button></a>
+
+            <!--Seção: An PA-->
+            <section id="an-pa">
+                <h2>Posição Desejada (An)</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe An">
+                    <input type="number" placeholder="Informe Razão">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>An: <p></p></p>
+                </div>
+            </section>
+            <a href="#home-pa"><button>VOLTAR</button></a>
+
+            <!--Seção: Soma PA-->
+            <section id="soma-pa">
+                <h2>Soma de uma Sequência</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe An">
+                    <input type="number" placeholder="Informe Razão">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>Sn: <p></p></p>
+                </div>
+            </section>
+            <a href="#home-pa"><button>VOLTAR</button></a>
+        </section>
+
+        <!--Seção: PG-->
+        <section id="pg">
+            <section id="home-pg">
+                <h2>PG</h2>
+                <div class="div">
+                    <h3> Razão PG</h3>
+                    <p>Consiste em descobrir como a sequencia está se comportando e o número que está atuando.</p>
+                    <a href="#razao-pg"><button>COMEÇAR</button></a>
+                </div>
+
+                <div class="div">
+                    <h3> Posição desejada PG </h3>
+                    <p>Consiste em descobrir qual número que é em uma posição escolhida, conhecida também como An.</p>
+                    <a href="#an-pg"><button>COMEÇAR</button></a>
+                </div>
+
+                <div class="div">
+                    <h3> Somar termos PG </h3>
+                    <p>Consiste em somar todos os termos de uma posição até outra.</p>
+                    <a href="#soma-pg"><button>COMEÇAR</button></a>
+                </div>
+            </section>
+            <a href="#choose"><button>VOLTAR</button></a>
+
+            <!--Seção: Razao de PG-->
+            <section id="razao-pg">
+                <h2>Razão de uma PG</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe A2">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>Razão: <p></p></p>
+                    <p>É uma sequência: <p></p> </p>
+                </div>
+            </section>
+            <a href="#home-pg"><button>VOLTAR</button></a>
+
+            <!--Seção: An PG-->
+            <section id="an-pg">
+                <h2>Posição Desejada (An)</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe An">
+                    <input type="number" placeholder="Informe Razão">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>An: <p></p></p>
+                </div>
+            </section>
+            <a href="#home-pg"><button>VOLTAR</button></a>
+            
+            <!--Seção: Soma PG-->
+            <section id="soma-pg">
+                <h2>Soma de uma Sequência PG</h2>
+                <div class="div">
+                    <h5>Informando Valores</h5>
+                    <input type="number" placeholder="Informe A1">
+                    <input type="number" placeholder="Informe An">
+                    <input type="number" placeholder="Informe Razão">
+                    <button>RESOLVER</button>
+                    <h4>Resultado</h4>
+                    <p>Sn: <p></p></p>
+                </div>
+            </section>
+            <a href="#home-pg"><button>VOLTAR</button></a>
+        </section>
+
+    </main>
+    <footer>
+        <h3>
+            Desenvolvido por: Erick Augusto da Silva Nunes 
+            <a href="https://github.com/ErickSNunes" target="_blank"> <img src="img/github-icon.png" width="28px" class="img-link"> </a>
+            <a href="https://www.linkedin.com/in/erick-augusto-da-silva-nunes-a7a0811ab/" target="_blank"><img src="img/linkedin-icon.png" width="35px" class="img-link"> </a>
+        </h3>
+
+        <h3>
+            Desenvolvido por: Felipe Augusto Janotte 
+            <a href="https://github.com/FelipeJanotte" target="_blank"> <img src="img/github-icon.png" width="28px" class="img-link"> </a>
+            <a href="https://www.linkedin.com/in/felipe-augusto-janotte-662626195/" target="_blank"> <img src="img/linkedin-icon.png" width="35px" class="img-link"> </a>
+        </h3>
+    </footer>
+
 
 </body>
 <script src="main.js"></script>
